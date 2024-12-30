@@ -1,0 +1,18 @@
+.image-desktop {
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .image-mobile {
+        height: auto; 
+        max-height: 250px; 
+        object-fit: cover;
+    }
+    .content-mobile {
+        text-align: center; 
+    }
+    .row {
+        margin: 0; 
+    }
+}
