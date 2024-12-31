@@ -1,0 +1,23 @@
+body {
+  scroll-behavior: smooth;
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+  
+}
+.hero {
+  background: url('./img/hero-image.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
