@@ -10,3 +10,21 @@ html, body{
 .img-100alto{
     height: 100%;
 }
+
+.efecto{
+    transform: scale(var(--escala, 1));
+    transition: transform 0.25s, background-color 0.2s ease, color 0.2s ease;
+  }
+.efecto:hover{
+    --escala: 1.03;
+    cursor:pointer;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* .card:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+} */
