@@ -17,7 +17,6 @@ html, body{
   }
 .efecto:hover{
     --escala: 1.03;
-    cursor:pointer;
     background-color: #ffffff !important;
     color: #000000 !important;
   }
